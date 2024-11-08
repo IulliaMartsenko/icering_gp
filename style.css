@@ -1,3 +1,80 @@
 *{
     box-sizing: border-box;
+  
+}
+
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+}
+h1, h2{
+    font-family: "Marck Script", "Arial", cursive;
+    font-weight: 400;
+}
+.main__block-text-h1{
+    font-size: 40px;
+}
+.main__block-text-description{
+    font-size: 24px;
+}
+
+.main__block-img{
+    max-width: 430px;
+}
+.advantages__block-points-img{
+    max-width: 430px;
+}
+@media screen and (max-width: 360px){
+h2{
+    font-size: 24px;
+}
+.header__container{
+    padding: 0 20px 0 20px;
+}
+.header__block{
+max-width: 340px;
+max-height: 50px;
+border-radius: 0 0 20px 20px;
+background-color: #59B6CD;
+
+}
+.main__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.main__block-text-h1{
+margin: 0;
+}
+.main__block-text-description{
+    margin: 0;
+}
+.main__block-img{
+    max-width: 300px;
+}
+.about__block-description{
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.about__block-description--bold{
+    font-weight: 600;
+}
+.about__block, .advantages__block, .price__block, .map__block, .faq__block{
+    margin: 60px 0 0 0;
+    display: flex;
+    justify-content: center;
+    max-width: 234px;
+    max-height: 60px;
+    background-color: #59B6CD;
+    color: #fff;
+    border-radius: 50px;
+}
+.about__block-img{
+    max-width: 350px;
+}
+.advantages__block-points-img{
+    max-width: 260px;
+}
 }

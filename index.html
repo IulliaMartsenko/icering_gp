@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <title>Icering</title>
+<title>Icering</title>
   </head>
   <body>
     <header>
       <div class="header__container">
-        <nav class="navbar"></nav>
+        <div class="header__block">
+        <nav class="navbar">Logo</nav>
+      </div>
       </div>
     </header>
     <main>
-      <div class="main__conteiner">
+      <div class="main__container">
       <section class="main">
         <div class="main__block">
           <div class="main__block-text">
@@ -24,20 +32,20 @@
             <p class="main__block-text-description">со светящимися фигурами</p>
             <img src="assets/eclipse.png"  alt="Круг с блюром"/>
           </div>
-          <img src="./assets/girl_skating.jpg" alt="Девушка катается на коньках" />
+          <img src="./assets/girl_skating.jpg" alt="Девушка катается на коньках" class="main__block-img"/>
         </div>
       </section>
       <section class="about">
         <div class="about__block">
             <h2 class="about__block-h2">О нас</h2>
         </div>
-        <img src="./assets/about-img.png" alt="Открытый каток со светящимися лампочками"/>
-        <h3 class="about__block-description">Открытый каток в Гагарин-парке дает возможность жителям Санкт-Петербурга насладиться катанием на коньках. Сверкающий серебром лёд, легкость скольжения, смех и веселье — в этом всегда было что-то поэтически завораживающее и вечно молодое.
-            Вечером загораются лампочки и светятся деревья, такую атмосферу можно почувствовать только в живую.
-            Кататься можно на своих коньках или взять их в аренду.
+        <img src="./assets/about-img.png" alt="Открытый каток со светящимися лампочками" class="about__block-img"/>
+        <h3 class="about__block-description"><span class="about__block-description--bold">Открытый каток</span> в Гагарин-парке дает возможность жителям Санкт-Петербурга насладиться катанием на коньках. Сверкающий серебром лёд, легкость скольжения, <span class="about__block-description--bold">смех и веселье</span> — в этом всегда было что-то поэтически завораживающее и вечно молодое.
+            Вечером <span class="about__block-description--bold">загораются лампочки</span>  и светятся деревья, такую атмосферу можно почувствовать только в живую.
+            Кататься можно на своих коньках или взять их в аренду.          
             На катке есть раздевалка, где можно оставить обувь и заточить свои коньки.
             </h3>
-      </section>
+      </section>   
       <section class="advantages">
         <div class="advantages__block">
             <h2 class="advantages__block-h2">Преимущества</h2>
@@ -51,7 +59,7 @@
             <p class="advantages__block-points-point">Спокойно и уютно</p>
             <p class="advantages__block-points-point">Светящиеся фигуры</p>
             <p class="advantages__block-points-point">Камерная атмосфера</p>
-            <img src="assets/snowflake.jpg" alt="Снежинка"/>
+            <img src="assets/snowflake.jpg" alt="Снежинка" class="advantages__block-points-img"/>
         </div>
       </section>
       <section class="price">
@@ -69,11 +77,15 @@
         <div class="map__block">
           <h2>Как нас найти</h2>
         </div>
+        
         <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=16018677480" width="560" height="400" frameborder="0"></iframe>
       </section>
 
       <section class="faq">
         <div class="faq__block">
+          <h2 class="faq__block-h2">Вопросы</h2>
+        </div>
+        <div class="faq__block-questions">
           <div class="faq__block-question">
           <h5 class="faq__block-question-h5">
             До какого возраста дети?
