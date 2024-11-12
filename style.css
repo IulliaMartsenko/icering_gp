@@ -1,80 +1,223 @@
-*{
+* {
     box-sizing: border-box;
-  
 }
 
-body{
+body {
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
+
 }
-h1, h2{
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
     font-family: "Marck Script", "Arial", cursive;
     font-weight: 400;
 }
-.main__block-text-h1{
-    font-size: 40px;
-}
-.main__block-text-description{
+
+h2 {
     font-size: 24px;
 }
 
-.main__block-img{
-    max-width: 430px;
-}
-.advantages__block-points-img{
-    max-width: 430px;
-}
-@media screen and (max-width: 360px){
-h2{
-    font-size: 24px;
-}
-.header__container{
+.header__container {
     padding: 0 20px 0 20px;
 }
-.header__block{
-max-width: 340px;
-max-height: 50px;
-border-radius: 0 0 20px 20px;
-background-color: #59B6CD;
+
+.header__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #59B6CD;
+    color: #fff;
+    border-radius: 0 0 30px 30px;
+    padding: 18px 20px;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
 
 }
-.main__container{
+
+.main__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
 }
-.main__block-text-h1{
-margin: 0;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
 }
-.main__block-text-description{
+
+.main__block {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__block::before {
+    content: '';
+    display: block;
+    position: absolute;
+    
+    top: -40px;
+    left: 20px;
+    width: 119px;
+    height: 119px;
+    background-color: #A7E1EF;
+    filter: blur(30px);
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.main__block-text-h1 {
     margin: 0;
+    font-size: 40px;
 }
-.main__block-img{
-    max-width: 300px;
+
+.main__block-text-description {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.2;
 }
-.about__block-description{
-    font-size: 12px;
+
+.main__block-img {
+    margin: 60px 0 0 0;
+    width: 335px;
+}
+
+.about {
+    margin: 35px 0 0 0;
+}
+
+.about__block-description {
+    font-size: 14px;
     font-weight: 300;
+    margin: 25px 0 0 0;
 
 }
-.about__block-description--bold{
+
+.about__block-description--bold {
     font-weight: 600;
 }
-.about__block, .advantages__block, .price__block, .map__block, .faq__block{
-    margin: 60px 0 0 0;
+
+.section-title {
     display: flex;
     justify-content: center;
-    max-width: 234px;
-    max-height: 60px;
+    width: 100%;
     background-color: #59B6CD;
     color: #fff;
     border-radius: 50px;
+    padding: 18px 20px;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
 }
-.about__block-img{
-    max-width: 350px;
+
+.about__block-img {
+    max-width: 300px;
+    margin: 25px 0 0 0;
 }
-.advantages__block-points-img{
+
+.advantages {
+    margin: 50px 0 0 0;
+}
+
+.advantages__block-points {
+    position: relative;
+    background-image: url(./assets/snowflake.jpg);
+    margin: 50px 0 0 0;
+}
+
+.advantages__block-points-img {
     max-width: 260px;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+
 }
+
+.price {
+    margin: 50px 0 0 0;
+}
+
+.price__block-table {
+    margin: 50px 0 0 0;
+}
+
+.gallery {
+    margin: 50px 0 0 0;
+}
+
+.map {
+    margin: 50px 0 0 0;
+
+}
+
+.map__block-map {
+    max-width: 320px;
+    max-height: 300px;
+    margin: 50px 0 0 0;
+}
+
+.faq {
+    margin: 50px 0 0 0;
+}
+
+.faq__block-questions {
+    margin: 50px 0 0 0;
+}
+
+.footer__container {
+    padding: 0 20px 0 20px;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #59B6CD;
+    color: #fff;
+    border-radius: 30px 30px 0 0;
+    padding: 18px 20px;
+    font-size: 24px;
+    line-height: 1;
+    margin: 50px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main__block-img {
+        width: 60%;
+        margin: 0;
+    }
+
+    .main__block-text-h1 {
+        font-size: 60px;
+    }
+
+    .main__block-text-description {
+        font-size: 28px;
+    }
+
+    .main__block::before {
+        top: -30px;
+        left: 50px;
+    }
+}
+@media screen and (min-width: 1024px){
+
 }
