@@ -1,153 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#59b6cd" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Icering</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <title>Icering</title>
-</head>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__block">
+          <div class="header__block-logo">
+          <img src="./assets/logo.png" alt="Коньки" class="header__block-logo-img">
+          <div class="logo">Каток </br> <span class="header__block-logo-title">в Гагарин-парке</div>
+        </div>
+          <div class="header__block-burger"><div class="burger"></div></div>
+          <nav class="navbar">
+            <ul class="navbar-links"> 
+              <li class="navbar-link">
+            <a href="#about" class="link">О нас</a></li>
 
-<body>
-  <header>
-    <div class="header__container">
-      <div class="header__block">
-        <nav class="navbar">Logo</nav>
+            <li class="navbar-link"><a href="#ideas" class="link">Идеи</a></li>
+
+              <li class="navbar-link"><a href="#price" class="link">Стоимость</a></li>
+           
+                <li class="navbar-link"> <a href="#photo" class="link">Фото</a></li>
+           
+                  <li class="navbar-link"> <a href="#map" class="link">Как нас найти</a></li>
+
+                    <li class="navbar-link"><a href="#question" class="link">Вопросы</a></li>
+          </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-  </header>
-  <main class="main__container">
-    <div>
-      <section class="main">
-        <div class="main__block">
-          <h1 class="main__block-text-h1">Каток</h1>
-          <p class="main__block-text-description">со светящимися</br> фигурами</p>
-        </div>
-        <img src="./assets/girl_skating.jpg" alt="Девушка катается на коньках" class="main__block-img" />
-      </section>
-      <section class="about">
-        <div>
-          <h2 class="section-title">О нас</h2>
-        </div>
-        <img src="./assets/about-img.png" alt="Открытый каток со светящимися лампочками" class="about__block-img" />
-        <h3 class="about__block-description"><span class="about__block-description--bold">Открытый каток</span> в Гагарин-парке дает возможность жителям Санкт-Петербурга насладиться катанием на коньках. Сверкающий серебром лёд, легкость скольжения, <span class="about__block-description--bold">смех и веселье</span> — в этом всегда было что-то поэтически завораживающее и вечно молодое. Вечером <span class="about__block-description--bold">загораются лампочки</span> и светятся деревья, такую атмосферу можно почувствовать только в живую. Кататься можно на своих коньках или взять их в аренду. На катке есть раздевалка, где можно оставить обувь и заточить свои коньки. </h3>
-      </section>
-      <section class="advantages">
-        <div class="advantages__block">
-          <h2 class="section-title">Преимущества</h2>
-        </div>
-        <div class="advantages__block-points">
-          <p class="advantages__block-points-point">Полакомиться кукурузой и выпить б/у глинтвейн</p>
-          <p class="advantages__block-points-point">Насладиться атмосферой</p>
-          <p class="advantages__block-points-point">Весело провести время</p>
-          <p class="advantages__block-points-point">Провести корпоратив</p>
-          <p class="advantages__block-points-point">Сделать предложение любимой</p>
-          <p class="advantages__block-points-point">Спокойно и уютно</p>
-          <p class="advantages__block-points-point">Светящиеся фигуры</p>
-          <p class="advantages__block-points-point">Камерная атмосфера</p>
-        </div>
-      </section>
-      <section class="price">
-        <div class="price__block">
-          <h2 class="section-title">Стоимость</h2>
-        </div>
-        <table class="price__block-table">
-          <tr>
-            <td>Услуги</td>
-          </tr>
-          <tr>
-            <td>Будние</td>
-          </tr>
-          <tr>
-            <td>Выходные</td>
-          </tr>
-        </table>
-      </section>
-      <section class="gallery">
-      </section>
-      <section class="map">
-        <div class="map__block">
-          <h2 class="section-title">Как нас найти</h2>
-        </div>
-        <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=16018677480" frameborder="0" class="map__block-map"></iframe>
-      </section>
-      <section class="faq">
-        <div class="faq__block">
-          <h2 class="section-title">Вопросы</h2>
-        </div>
-        <div class="faq__block-questions">
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> До какого возраста дети? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+    </header>
+    <main>
+      <div class="main__container">
+        <section class="main">
+          <div class="main__block">
+            <h1 class="main__block-text-h1">Волшебный Каток</h1>
+            <p class="main__block-text-description">
+              со светящимися<br />
+              фигурами!
+            </p>
+            <p>Новые эмоции для детей и взрослых</p>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Какое расписание у катка? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <img
+            src="./assets/girl_skating.jpg"
+            alt="Девушка катается на коньках"
+            class="main__block-img"
+          />
+        </section>
+        <section class="about" id="about">
+          <div>
+            <h2 class="section-title">О нас</h2>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Где оставить вещи? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <div class="about__block">
+            <div class="about__block-text-img">
+              <img
+                src="./assets/about-img.webp"
+                alt="Открытый каток со светящимися лампочками"
+                class="about__block-img"
+              />
+              <svg width="0" height="0">
+                <clipPath id="photo-deformation" clipPathUnits="objectBoundingBox">
+                  <path d="M0.222,0.167 C0.046,0.284,-0.011,0.431,0.116,0.583 C0.242,0.732,0.151,0.951,0.411,1 C0.699,1,1,0.88,1,0.676 C1,0.589,0.995,0.22,0.8,0.125 C0.595,0.025,0.437,0.031,0.222,0.167" /> 
+                </clipPath>
+              </svg>
+              <div class="about__block-description-content">
+                <p class="about__block-description">
+                  Приглашаем вас на уютный зимний каток, где каждый момент —
+                  <span class="about__block-description--bold"
+                    >волшебство!</span
+                  >
+                </p>
+                <p class="about__block-description">
+                  Здесь продумано всё для комфорта гостей:
+                  <span class="about__block-description--bold">бортики</span>
+                  помогут новичкам уверенно стоять на коньках, а маленькие
+                  фигуристы могут кататься с помощниками-пингвинами, делая
+                  первые шаги на льду. Особенно красиво здесь вечером, когда
+                  <span class="about__block-description--bold"
+                    >включается подсветка</span
+                  >
+                  рядом находятся световые фигуры. Катание среди огней под
+                  открытым небом погружает в атмосферу настоящей зимней сказки.
+                </p>
+                <p class="about__block-description">
+                  После активного отдыха обязательно загляните на перекус:
+                  горячая кукуруза согреет прямо на месте, а уютное
+                  <span class="about__block-description--bold">кафе</span> рядом
+                  порадует разнообразным меню и теплой атмосферой. У нас можно
+                  создать прекрасные зимние воспоминания —
+                  <span class="about__block-description--bold"
+                    >красивые фотографии</span
+                  >, получить радость от катания и отдых, который хочется
+                  повторить снова!
+                </p>
+                <p class="about__block-description">
+                  <span class="about__block-description--bold"
+                    >Приходите за эмоциями, которые вы не найдете больше
+                    нигде!</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="about__block-points">
+              <div class="about__block-point">
+                <p class="about__block-point-text">
+                  безопасные бортики для начинающих
+                </p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">
+                  помощники-пингвины для детей
+                </p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">световые фигуры</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">фотозона</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">11 минут от метро</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">прокат</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">заточка</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">кафе</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">горячая кукуруза</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">туалет</p>
+              </div>
+              <div class="about__block-point">
+                <p class="about__block-point-text">настоящая елка</p>
+              </div>
+            </div>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Есть ли у вас фигуры помощники? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+        </section>
+        <section class="ideas" id="ideas">
+          <div class="ideas__block">
+            <h2 class="section-title">Идеи</h2>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Какой у вас лед? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <div class="ideas__block-text">
+            <div class="ideas__block-points">
+              <p class="ideas__block-points-point">У нас можно</p>
+              <p class="ideas__block-points-point">
+                Посмотреть за детьми с моста
+              </p>
+              <p class="ideas__block-points-point">Активно покататься</p>
+              <p class="ideas__block-points-point">Провести корпоратив</p>
+              <p class="ideas__block-points-point">
+                Сделать предложение любимой
+              </p>
+              <p class="ideas__block-points-point">Полюбоваться фигурами</p>
+            </div>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Какой график работы катка? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+        </section>
+        <section class="price" id="price">
+          <div class="price__block">
+            <h2 class="section-title">Стоимость</h2>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Есть ли залог? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <table class="price__block-table">
+            <thead class="price__block-table-thead">
+              <tr class="price__block-table-tr">
+                <th>Услуги</th>
+                <th>Будние</th>
+                <th>Выходные</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="price__block-table-tr">
+                <td>Взрослый билет </td>
+                <td>400 руб.</td>
+                <td>500 руб.</td>
+              </tr>
+              <tr class="price__block-table-tr">
+                <td>Детский билет 
+                </br>
+                <small>	До 18 лет при наличии подтверждающих документов</small>
+                </td>
+                <td>300 руб.</td>
+                <td>400 руб.</td>
+              </tr>
+              <tr class="price__block-table-tr">
+                <td>Льготный билет
+                </br>
+                <small>Студенты, пенсионеры при наличии подтверждающих документов</small>
+                </td>
+                <td>300 руб.</td>
+                <td>400 руб.</td>
+              </tr>
+              <tr class="price__block-table-tr">
+                <td>Прокат коньков
+                </br>
+                <small>В залог принимаются: 1000 руб./пенсионное удостоверение/военный билет/водительские права</small>
+                </td>
+                <td>400 руб.</td>
+                <td>400 руб.</td>
+              </tr>
+              <tr class="price__block-table-tr">
+                <td>Заточка коньков</td>
+                <td>400 руб.</td>
+                <td>400 руб.</td>
+              </tr>
+              <tr class="price__block-table-tr">
+                <td>Аренда помощника фигуриста</td>
+                <td>100 руб.</td>
+                <td>100 руб.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="gallery" id="photo">
+          
+        </section>
+        <section class="map" id="map">
+          <div class="map__block">
+            <h2 class="section-title">Как нас найти</h2>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Где можно перекусить? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <p class="map__block-description">Каток находится в Гагарин-парке по адресу: Кузнецовская д. 25Б</p>
+          <p class="map__block-description">Тел.: +7 (921) 186-52-36</p>
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=16018677480"
+            frameborder="0"
+            class="map__block-map"
+          ></iframe>
+        </section>
+        <section class="faq" id="question">
+          <div class="faq__block">
+            <h2 class="section-title">Вопросы</h2>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Где найти уборную комнату? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
+          <div class="faq__block-questions">
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">До какого возраста дети?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Какое расписание у катка?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Где оставить вещи?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">
+                Есть ли у вас фигуры помощники?
+              </h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Какой у вас лед?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Какой график работы катка?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Есть ли залог?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Где можно перекусить?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">Где найти уборную комнату?</h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
+            <div class="faq__block-question">
+              <h5 class="faq__block-question-h5">
+                Какой минимальный и максимальный размер коньков?
+              </h5>
+              <div class="faq__block-question-line"></div>
+              <img src="assets/plus.png" alt="Плюс" />
+            </div>
           </div>
-          <div class="faq__block-question">
-            <h5 class="faq__block-question-h5"> Какой минимальный и максимальный размер коньков? </h5>
-            <div class="faq__block-question-line"></div>
-            <img src="assets/plus.png" alt="Плюс" />
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <div class="footer__container">
+        </section>
+      </div>
+    </main>
+    <footer>
       <div class="footer__container">
-        <div class="footer__block">
-          <p class="footer__block-copyright">© Все права защищены</p>
-          <p class="footer__block-dev"></p>
+        <div class="footer__container">
+          <div class="footer__block">
+            <p class="footer__block-copyright">© Каток в Гагарин-парке, 2024 г.</p>
+            <p class="footer__block-dev"></p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
