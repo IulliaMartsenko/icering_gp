@@ -402,6 +402,7 @@ small {
   margin: 50px 0 0 0;
 }
 
+
 .map__block-description {
   font-size: 20px;
   text-align: center;
@@ -411,6 +412,7 @@ small {
   height: 60vh;
   margin: 50px 0 0 0;
   border: none;
+  border-radius: 30px;
 }
 
 .faq {
@@ -591,4 +593,33 @@ small {
   .map__block-map {
     height: 40vh;
   }
+}
+
+
+
+.swiper--main {
+  margin-top: 40px;
+}
+.swiper {
+  width: 100%;
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper--thumbs {
+  margin-top: 20px;
+}
+
+.swiper--thumbs .swiper-slide:not(.swiper-slide-thumb-active) {
+  cursor: pointer;
 }
