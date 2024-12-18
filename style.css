@@ -140,6 +140,11 @@ small {
   transition-duration: inherit;
   padding: 10px;
   margin-right: 20px;
+  border-bottom: 0 solid #fff; /* Параметры линии снизу */
+  transition: 0.2s;
+}
+.link:hover{
+  border-bottom-width: 2px;
 }
 .burger.active .burger__stick {
   background-color: transparent;
@@ -355,13 +360,6 @@ small {
   height: 100%;
   object-fit: cover;
 }
-.splide__slide {
-  opacity: 0.6;
-}
-
-.splide__slide.is-active {
-  opacity: 1;
-}
 .price {
   margin: 50px 0 0 0;
 }
@@ -421,6 +419,7 @@ small {
 
 .faq__block-questions {
   margin: 50px 0 0 0;
+  cursor: pointer;
 }
 
 .faq__block-question {
@@ -432,7 +431,11 @@ small {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 10px 0;
+  padding: 15px 0;
+}
+
+.faq__block-question-header:hover{
+  color: #59b6cd;
 }
 
 .faq__block-question-header-text {
