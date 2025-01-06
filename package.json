@@ -11,15 +11,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "swiper": "^11.1.15"
   },
   "devDependencies": {
     "@types/node": "^22.10.3",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.1",
+    "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
     "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.9.2",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
