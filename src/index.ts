@@ -2,6 +2,8 @@ import Swiper from 'swiper';
 import { Navigation, Autoplay, Thumbs } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import 'swiper/css/thumbs';
 import './style.css';
 
 const nav = document.querySelector('.navbar');
