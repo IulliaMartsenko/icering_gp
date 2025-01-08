@@ -6,5 +6,6 @@ export function buildDevServer({ port }: BuildOptions): Configuration['devServer
     return {
         port: port ?? 3000,
         open: true,
+        hot: true,
     }
 }

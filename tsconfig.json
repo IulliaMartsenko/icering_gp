@@ -3,6 +3,7 @@
         "baseUrl": "src",
         "outDir": "./build/",
         "noImplicitAny": true,
+        "sourceMap": true,
         "module": "ESNext",
         "target": "es5",
         "allowJs": true,

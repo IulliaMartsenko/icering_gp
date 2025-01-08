@@ -3,8 +3,8 @@ import { buildWebpack } from './config/build/buildWebpack';
 import { BuildMode, BuildOptions, BuildPaths } from './config/build/types/types';
 
 interface EnvVariables {
-    mode: BuildMode;
-    port: number;
+    mode?: BuildMode;
+    port?: number;
 }
 
 export default (env: EnvVariables) => {
@@ -15,8 +15,9 @@ export default (env: EnvVariables) => {
     }
 
     const options: BuildOptions = {
-        mode: env.mode,
+        mode: env.mode ?? 'production',
         paths,
+        port: env.port,
     }
     const config = buildWebpack(options);
 

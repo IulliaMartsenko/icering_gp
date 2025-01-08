@@ -12,7 +12,7 @@ export function buildLoaders(): ModuleOptions['rules'] {
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
     };
 
-    const imgLoader: RuleSetRule = {
+    const assetLoader: RuleSetRule = {
         test: /\.(png|jpg|jpeg|webp)$/i,
         type: 'asset/resource',
         // use: [{
@@ -30,14 +30,21 @@ export function buildLoaders(): ModuleOptions['rules'] {
 
     const tsLoader: RuleSetRule = {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        use: [
+            {
+                loader: 'ts-loader',
+                options: {
+                    transpileOnly: true,
+                },
+            }
+        ],
         exclude: /node_modules/,
     };
 
     return [
         htmlLoader,
         cssLoader,
-        imgLoader,
+        assetLoader,
         tsLoader,
     ]
 }

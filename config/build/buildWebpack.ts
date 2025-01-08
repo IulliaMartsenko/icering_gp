@@ -12,7 +12,7 @@ export function buildWebpack(options: BuildOptions): Configuration {
     const isDev = mode === 'development';
 
     const config: Configuration = {
-        mode: mode ?? 'production',
+        mode,
         entry: paths.entry,
         output: {
             path: paths.output,
