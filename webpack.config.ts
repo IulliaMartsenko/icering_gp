@@ -12,6 +12,8 @@ export default (env: EnvVariables) => {
         entry: path.resolve(__dirname, 'src', 'index.ts'),
         html: path.resolve(__dirname, 'src', 'index.html'),
         output: path.resolve(__dirname, 'build'),
+        favicon: path.resolve(__dirname, 'src', 'favicon.png'),
+        manifest: path.resolve(__dirname, 'src', 'manifest.webmanifest'),
     }
 
     const options: BuildOptions = {

@@ -1,0 +1,12 @@
+{
+    "name": "Ice Ring Gagarin-park",
+    "short_name": "IceRing_GP",
+    "description": "Каток в Гагарин-парке со светящимися фигурами.",
+    "lang": "ru",
+    "display": "standalone",
+    "orientation": "any",
+    "start_url": ".",
+    "background_color": "#59b6cd",
+    "theme_color": "#59b6cd",
+    "categories": ["kids", "lifestyle", "sports"]
+}
