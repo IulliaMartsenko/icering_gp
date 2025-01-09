@@ -34,7 +34,7 @@ export function buildWebpack(options: BuildOptions): Configuration {
     };
 
     if (isDev) {
-        config.devtool = 'inline-source-map';
+        config.devtool = 'eval-cheap-module-source-map';
     }
 
     return config;
