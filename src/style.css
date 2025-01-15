@@ -455,7 +455,7 @@ small {
 .price__block-table td,
 .price__block-table th {
   border-left: 1px solid black;
-  padding: 20px;
+  padding: 10px;
 }
 
 .price__block-table td:first-child,
@@ -593,6 +593,11 @@ small {
   .about__block-img {
     width: 40%;
   }
+
+  .price__block-table td,
+.price__block-table th {
+  padding: 20px;
+}
 }
 
 @media screen and (min-width: 1180px) {
