@@ -33,9 +33,17 @@ questions.forEach((question) => {
 const swiperThumbs = new Swiper('#swiper-thumbs', {
     loop: true,
     spaceBetween: 10,
-    slidesPerView: 5,
+    slidesPerView: 3,
     freeMode: true,
     watchSlidesProgress: true,
+    breakpoints: {
+        480: {
+            slidesPerView: 4,
+        },
+        768: {
+            slidesPerView: 5,
+        },
+    },
 });
 new Swiper('#swiper-main', {
     loop: true,
@@ -54,31 +62,30 @@ new Swiper('#swiper-main', {
 });
 
 const modal = document.querySelector('.modal'),
-overlay      = document.querySelector('#overlay-modal'),
-closeButton = document.querySelector('.js-modal-close');
+    overlay = document.querySelector('#overlay-modal'),
+    closeButton = document.querySelector('.js-modal-close');
 
-function modalLogic(){
-    document.addEventListener('DOMContentLoaded', function() {
+function modalLogic() {
+    document.addEventListener('DOMContentLoaded', function () {
         modalOpen();
 
-        closeButton.addEventListener('click', function(e) {
+        closeButton.addEventListener('click', function (e) {
             modalClose();
-          });
-      
-        overlay.addEventListener('click', function() {
+        });
+
+        overlay.addEventListener('click', function () {
             modalClose();
         });
     });
 }
 
-function modalOpen(){
+function modalOpen() {
     modal.classList.add('modal--opened');
-    overlay .classList.add('overlay--opened');
+    overlay.classList.add('overlay--opened');
     document.body.classList.add('unscroll');
-
 }
-function modalClose(){
+function modalClose() {
     modal.classList.remove('modal--opened');
-    overlay .classList.remove('overlay--opened');
+    overlay.classList.remove('overlay--opened');
     document.body.classList.remove('unscroll');
 }
