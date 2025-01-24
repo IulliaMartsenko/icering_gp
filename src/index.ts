@@ -67,7 +67,7 @@ const modal = document.querySelector('.modal'),
 
 function modalLogic() {
     document.addEventListener('DOMContentLoaded', function () {
-        modalOpen();
+       modalOpen();
 
         closeButton.addEventListener('click', function (e) {
             modalClose();
@@ -84,6 +84,7 @@ function modalOpen() {
     overlay.classList.add('overlay--opened');
     document.body.classList.add('unscroll');
 }
+
 function modalClose() {
     modal.classList.remove('modal--opened');
     overlay.classList.remove('overlay--opened');
