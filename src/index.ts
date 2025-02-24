@@ -6,7 +6,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/thumbs';
 import './style.css';
 
-//modalLogic();
+modalLogic();
 const nav = document.querySelector('.navbar');
 const burger = document.querySelector('.burger');
 const navLinks = document.querySelectorAll('.navbar-link .link');
@@ -61,7 +61,7 @@ new Swiper('#swiper-main', {
     modules: [Navigation, Autoplay, Thumbs],
 });
 
-/*const modal = document.querySelector('.modal'),
+const modal = document.querySelector('.modal'),
     overlay = document.querySelector('#overlay-modal'),
     closeButton = document.querySelector('.js-modal-close');
 
@@ -90,4 +90,3 @@ function modalClose() {
     overlay.classList.remove('overlay--opened');
     document.body.classList.remove('unscroll');
 }
-*/
