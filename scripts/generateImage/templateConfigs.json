@@ -1,0 +1,28 @@
+[
+    { "_comment": "gallery large" },
+    {
+        "breakpoints": {
+            "480": 440,
+            "768": 728,
+            "1200": 1160
+        },
+        "supportedDpr": [1, 1.5, 2, 3],
+        "output": "./assets",
+        "alt": "Коньки",
+        "extensions": [{ "name": "avif" }, { "name": "webp" }, { "name": "jpeg" }]
+    },
+    
+    { "_comment": "gallery small" },
+    {
+        "breakpoints": {
+            "480": 140,
+            "768": 175,
+            "1200": 224
+        },
+        "supportedDpr": [1, 1.5, 2, 3],
+        "output": "./assets",
+        "alt": "Коньки",
+        "extensions": [{ "name": "avif" }, { "name": "webp" }, { "name": "jpeg" }]
+    }
+    
+]
