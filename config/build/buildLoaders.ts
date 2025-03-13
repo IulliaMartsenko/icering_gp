@@ -13,16 +13,8 @@ export function buildLoaders(): ModuleOptions["rules"] {
     };
 
     const assetLoader: RuleSetRule = {
-        test: /\.(png|jpg|jpeg|webp)$/i,
+        test: /\.(png|jpg|jpeg|webp|avif)$/i,
         type: "asset/resource",
-        // use: [{
-        //     loader: 'image-webpack-loader',
-        //     options: {
-        //         pngquant: {
-        //             quality: [.90, .95],
-        //         },
-        //     }
-        // }],
         generator: {
             filename: "images/[file]",
         },

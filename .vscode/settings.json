@@ -1,3 +1,5 @@
 {
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "jest.runMode": "on-demand",
+    "prettier.printWidth": 120
 }

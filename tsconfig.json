@@ -1,20 +1,25 @@
 {
     "compilerOptions": {
+        "strictNullChecks": false,
+        "noEmitOnError": false,
+        "skipLibCheck": true,
+        "strict": true,
         "baseUrl": "src",
         "outDir": "./build/",
         "noImplicitAny": false,
         "sourceMap": true,
         "module": "ESNext",
-        "target": "es5",
+        "target": "esnext",
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "noUnusedLocals": true,
+        "noUncheckedIndexedAccess": true,
     },
     "ts-node": {
         "compilerOptions": {
-            "module": "CommonJS"
+            "module": "CommonJS",
         }
     }
 }
