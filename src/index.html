@@ -1,445 +1,680 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#59b6cd" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-    <title>Каток в Гагарин-парке</title>
-    <meta name="description" content="Каток в Гагарин-парке — уютный зимний отдых с естественным льдом, светящимися фигурами, фотозонами и горячими угощениями. Комфорт для детей и взрослых. Прокат, заточка, помощники-пингвины, кафе и многое другое. Приходите за волшебными эмоциями!" />
-    <meta name="keywords" content="каток, каток в Гагарин-парке, каток Санкт-Петербург, каток Спб, каток на свежем воздухе, катание на коньках, зимний каток, каток с подсветкой, каток для всей семьи, каток для детей, аренда коньков, прокат коньков, каток с фотозонами, зимние развлечения, семейный отдых, каток недорого, стоимость катка, зимний отдых, каток для начинающих, обучение катанию на коньках, отзывы каток, каток для праздников, лучшие катки Санкт-Петербурга, лучшие катки Спб, открытый каток, зимние мероприятия, каток с музыкой" />
-    <meta property="og:title" content="Каток в Гагарин-парке – зимняя сказка!" />
-    <meta property="og:description" content="Светящиеся фигуры, фотозоны, прокат коньков – всё для вашего зимнего настроения!" />
-    <!-- <meta property="og:image" content="https://example.com/assets/preview.jpg">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta name="theme-color" content="#59b6cd" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Каток в Гагарин-парке</title>
+        <meta
+            name="description"
+            content="Каток в Гагарин-парке — уютный зимний отдых с естественным льдом, светящимися фигурами, фотозонами и горячими угощениями. Комфорт для детей и взрослых. Прокат, заточка, помощники-пингвины, кафе и многое другое. Приходите за волшебными эмоциями!"
+        />
+        <meta
+            name="keywords"
+            content="каток, каток в Гагарин-парке, каток Санкт-Петербург, каток Спб, каток на свежем воздухе, катание на коньках, зимний каток, каток с подсветкой, каток для всей семьи, каток для детей, аренда коньков, прокат коньков, каток с фотозонами, зимние развлечения, семейный отдых, каток недорого, стоимость катка, зимний отдых, каток для начинающих, обучение катанию на коньках, отзывы каток, каток для праздников, лучшие катки Санкт-Петербурга, лучшие катки Спб, открытый каток, зимние мероприятия, каток с музыкой"
+        />
+        <meta
+            property="og:title"
+            content="Каток в Гагарин-парке – зимняя сказка!"
+        />
+        <meta
+            property="og:description"
+            content="Светящиеся фигуры, фотозоны, прокат коньков – всё для вашего зимнего настроения!"
+        />
+        <!-- <meta property="og:image" content="https://example.com/assets/preview.jpg">
   <meta property="og:url" content="https://example.com"> -->
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] =
-                m[i] ||
-                function () {
-                    (m[i].a = m[i].a || []).push(arguments);
-                };
-            m[i].l = 1 * new Date();
-            for (var j = 0; j < document.scripts.length; j++) {
-                if (document.scripts[j].src === r) {
-                    return;
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (m, e, t, r, i, k, a) {
+                m[i] =
+                    m[i] ||
+                    function () {
+                        (m[i].a = m[i].a || []).push(arguments);
+                    };
+                m[i].l = 1 * new Date();
+                for (var j = 0; j < document.scripts.length; j++) {
+                    if (document.scripts[j].src === r) {
+                        return;
+                    }
                 }
-            }
-            (k = e.createElement(t)),
-                (a = e.getElementsByTagName(t)[0]),
-                (k.async = 1),
-                (k.src = r),
-                a.parentNode.insertBefore(k, a);
-        })(
-            window,
-            document,
-            'script',
-            'https://mc.yandex.ru/metrika/tag.js',
-            'ym'
-        );
+                (k = e.createElement(t)),
+                    (a = e.getElementsByTagName(t)[0]),
+                    (k.async = 1),
+                    (k.src = r),
+                    a.parentNode.insertBefore(k, a);
+            })(
+                window,
+                document,
+                'script',
+                'https://mc.yandex.ru/metrika/tag.js',
+                'ym'
+            );
 
-        ym(99514150, 'init', {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true,
-        });
-    </script>
-    <noscript>
-        <div>
-            <img src="https://mc.yandex.ru/watch/99514150" style="position: absolute; left: -9999px" alt="" />
-        </div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
-</head>
+            ym(99514150, 'init', {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,
+            });
+        </script>
+        <noscript
+            ><div>
+                <img
+                    src="https://mc.yandex.ru/watch/99514150"
+                    style="position: absolute; left: -9999px"
+                    alt=""
+                /></div
+        ></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </head>
 
-<body>
-    <header>
-        <div class="header__container">
-            <div class="header__block">
-                <div class="header__block-logo">
-                    <img src="./assets/logo.png" alt="Коньки" class="header__block-logo-img" />
-                    <div class="logo"> Каток <div class="header__block-logo-title"> в Гагарин-парке </div>
+    <body>
+        <header>
+            <div class="header__container">
+                <div class="header__block">
+                    <div class="header__block-logo">
+                        <img
+                            src="./assets/logo.png"
+                            alt="Коньки"
+                            class="header__block-logo-img"
+                        />
+                        <div class="logo">
+                            Каток
+                            <div class="header__block-logo-title">
+                                в Гагарин-парке
+                            </div>
+                        </div>
                     </div>
+                    <button
+                        class="burger header__block-burger"
+                        type="button"
+                        aria-label="Меню"
+                        title="Меню"
+                    >
+                        <span class="burger__stick"></span>
+                    </button>
+                    <nav class="navbar">
+                        <ul class="navbar-links">
+                            <li class="navbar-link">
+                                <a href="#about" class="link">О нас</a>
+                            </li>
+                            <li class="navbar-link">
+                                <a href="#ideas" class="link">Идеи</a>
+                            </li>
+                            <li class="navbar-link">
+                                <a href="#price" class="link">Стоимость</a>
+                            </li>
+                            <li class="navbar-link">
+                                <a href="#photo" class="link">Фото</a>
+                            </li>
+                            <li class="navbar-link">
+                                <a href="#map" class="link">Как нас найти</a>
+                            </li>
+                            <li class="navbar-link">
+                                <a href="#question" class="link">Вопросы</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <button class="burger header__block-burger" type="button" aria-label="Меню" title="Меню">
-                    <span class="burger__stick"></span>
-                </button>
-                <nav class="navbar">
-                    <ul class="navbar-links">
-                        <li class="navbar-link">
-                            <a href="#about" class="link">О нас</a>
-                        </li>
-                        <li class="navbar-link">
-                            <a href="#ideas" class="link">Идеи</a>
-                        </li>
-                        <li class="navbar-link">
-                            <a href="#price" class="link">Стоимость</a>
-                        </li>
-                        <li class="navbar-link">
-                            <a href="#photo" class="link">Фото</a>
-                        </li>
-                        <li class="navbar-link">
-                            <a href="#map" class="link">Как нас найти</a>
-                        </li>
-                        <li class="navbar-link">
-                            <a href="#question" class="link">Вопросы</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="main__container">
-            <section class="main">
-                <div class="main__block">
-                    <h1 class="main__block-text-h1">Волшебный Каток</h1>
-                    <p class="main__block-text-description"> со светящимися<br />фигурами! </p>
-                    <p>Новые эмоции для детей и взрослых</p>
-                </div>
-                <img src="./assets/girl_skating.jpg" alt="Девушка катается на коньках" class="main__block-img" />
-            </section>
-            <section class="about" id="about">
-                <h2 class="section-title">О нас</h2>
-                <div class="about__block">
-                    <div class="about__block-text-img">
-                        <img src="./assets/about-img.webp" alt="Открытый каток со светящимися лампочками" class="about__block-img" />
-                        <svg width="0" height="0">
-                            <clipPath id="photo-deformation" clipPathUnits="objectBoundingBox">
-                                <path d="M0.222,0.167 C0.046,0.284,-0.011,0.431,0.116,0.583 C0.242,0.732,0.151,0.951,0.411,1 C0.699,1,1,0.88,1,0.676 C1,0.589,0.995,0.22,0.8,0.125 C0.595,0.025,0.437,0.031,0.222,0.167" />
-                            </clipPath>
-                        </svg>
-                        <div class="about__block-description-content">
-                            <p class="about__block-description"> Приглашаем вас на уютный зимний каток, где каждый момент — <span class="about__block-description--bold">волшебство!</span>
+        </header>
+        <main>
+            <div class="main__container">
+                <section class="main">
+                    <div class="main__block">
+                        <h1 class="main__block-text-h1">Волшебный Каток</h1>
+                        <p class="main__block-text-description">
+                            со светящимися<br />фигурами!
+                        </p>
+                        <p>Новые эмоции для детей и взрослых</p>
+                    </div>
+                    <img
+                        src="./assets/girl_skating.jpg"
+                        alt="Девушка катается на коньках"
+                        class="main__block-img"
+                    />
+                </section>
+                <section class="about" id="about">
+                    <h2 class="section-title">О нас</h2>
+                    <div class="about__block">
+                        <div class="about__block-text-img">
+                            <img
+                                src="./assets/about-img.webp"
+                                alt="Открытый каток со светящимися лампочками"
+                                class="about__block-img"
+                            />
+                            <svg width="0" height="0">
+                                <clipPath
+                                    id="photo-deformation"
+                                    clipPathUnits="objectBoundingBox"
+                                >
+                                    <path
+                                        d="M0.222,0.167 C0.046,0.284,-0.011,0.431,0.116,0.583 C0.242,0.732,0.151,0.951,0.411,1 C0.699,1,1,0.88,1,0.676 C1,0.589,0.995,0.22,0.8,0.125 C0.595,0.025,0.437,0.031,0.222,0.167"
+                                    />
+                                </clipPath>
+                            </svg>
+                            <div class="about__block-description-content">
+                                <p class="about__block-description">
+                                    Приглашаем вас на уютный зимний каток, где
+                                    каждый момент —
+                                    <span class="about__block-description--bold"
+                                        >волшебство!</span
+                                    >
+                                </p>
+                                <p class="about__block-description">
+                                    Здесь продумано всё для комфорта гостей:
+                                    <span class="about__block-description--bold"
+                                        >бортики</span
+                                    >
+                                    помогут новичкам уверенно стоять на коньках,
+                                    а маленькие фигуристы могут кататься с
+                                    помощниками-пингвинами, делая первые шаги на
+                                    льду. Особенно красиво здесь вечером, когда
+                                    <span class="about__block-description--bold"
+                                        >включается подсветка</span
+                                    >
+                                    рядом находятся световые фигуры. Катание
+                                    среди огней под открытым небом погружает в
+                                    атмосферу настоящей зимней сказки.
+                                </p>
+                                <p class="about__block-description">
+                                    После активного отдыха обязательно загляните
+                                    на перекус: горячая кукуруза согреет прямо
+                                    на месте, а уютное
+                                    <span class="about__block-description--bold"
+                                        >кафе</span
+                                    >
+                                    рядом порадует разнообразным меню и теплой
+                                    атмосферой. У нас можно создать прекрасные
+                                    зимние воспоминания —
+                                    <span class="about__block-description--bold"
+                                        >красивые фотографии</span
+                                    >, получить радость от катания и отдых,
+                                    который хочется повторить снова!
+                                </p>
+                                <p class="about__block-description">
+                                    <span class="about__block-description--bold"
+                                        >Приходите за эмоциями, которые вы не
+                                        найдете больше нигде!</span
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__block-points">
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    безопасные бортики для начинающих
+                                </p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    помощники-пингвины для детей
+                                </p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    световые фигуры
+                                </p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">фотозона</p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    11 минут от метро
+                                </p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">прокат</p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">заточка</p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">кафе</p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    горячая кукуруза
+                                </p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">туалет</p>
+                            </div>
+                            <div class="about__block-point">
+                                <p class="about__block-point-text">
+                                    настоящая елка
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="ideas" id="ideas">
+                    <div class="ideas__block">
+                        <h2 class="section-title">Идеи</h2>
+                    </div>
+                    <div class="ideas__block-text">
+                        <div class="ideas__block-points">
+                            <p class="ideas__block-points-point">
+                                У нас можно:
                             </p>
-                            <p class="about__block-description"> Здесь продумано всё для комфорта гостей: <span class="about__block-description--bold">бортики</span> помогут новичкам уверенно стоять на коньках, а маленькие фигуристы могут кататься с помощниками-пингвинами, делая первые шаги на льду. Особенно красиво здесь вечером, когда <span class="about__block-description--bold">включается подсветка</span> рядом находятся световые фигуры. Катание среди огней под открытым небом погружает в атмосферу настоящей зимней сказки. </p>
-                            <p class="about__block-description"> После активного отдыха обязательно загляните на перекус: горячая кукуруза согреет прямо на месте, а уютное <span class="about__block-description--bold">кафе</span> рядом порадует разнообразным меню и теплой атмосферой. У нас можно создать прекрасные зимние воспоминания — <span class="about__block-description--bold">красивые фотографии</span>, получить радость от катания и отдых, который хочется повторить снова! </p>
-                            <p class="about__block-description">
-                                <span class="about__block-description--bold">Приходите за эмоциями, которые вы не найдете больше нигде!</span>
+                            <p class="ideas__block-points-point">
+                                Активно покататься
+                            </p>
+                            <p class="ideas__block-points-point">
+                                Провести корпоратив
+                            </p>
+                            <p class="ideas__block-points-point">
+                                Сделать предложение любимой
+                            </p>
+                            <p class="ideas__block-points-point">
+                                Полюбоваться фигурами
                             </p>
                         </div>
                     </div>
-                    <div class="about__block-points">
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> безопасные бортики для начинающих </p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> помощники-пингвины для детей </p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> световые фигуры </p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text">фотозона</p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> 11 минут от метро </p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text">прокат</p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text">заточка</p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text">кафе</p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> горячая кукуруза </p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text">туалет</p>
-                        </div>
-                        <div class="about__block-point">
-                            <p class="about__block-point-text"> настоящая елка </p>
-                        </div>
+                </section>
+                <section class="price" id="price">
+                    <div class="price__block">
+                        <h2 class="section-title">Стоимость</h2>
                     </div>
-                </div>
-            </section>
-            <section class="ideas" id="ideas">
-                <div class="ideas__block">
-                    <h2 class="section-title">Идеи</h2>
-                </div>
-                <div class="ideas__block-text">
-                    <div class="ideas__block-points">
-                        <p class="ideas__block-points-point">У нас можно:</p>
-                        <p class="ideas__block-points-point"> Активно покататься </p>
-                        <p class="ideas__block-points-point"> Провести корпоратив </p>
-                        <p class="ideas__block-points-point"> Сделать предложение любимой </p>
-                        <p class="ideas__block-points-point"> Полюбоваться фигурами </p>
+                    <table class="price__block-table">
+                        <thead class="price__block-table-thead">
+                            <tr>
+                                <th>Услуги</th>
+                                <th>Будние</th>
+                                <th>Выходные</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Взрослый билет</td>
+                                <td>500&nbsp;руб.</td>
+                                <td>500&nbsp;руб.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Детский билет<small
+                                        >До 18 лет при наличии подтверждающих
+                                        документов</small
+                                    >
+                                </td>
+                                <td>450&nbsp;руб.</td>
+                                <td>450&nbsp;руб.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Льготный билет<small
+                                        >Студенты, пенсионеры, льготники при
+                                        наличии подтверждающих документов</small
+                                    >
+                                </td>
+                                <td>450&nbsp;руб.</td>
+                                <td>450&nbsp;руб.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Прокат коньков<small
+                                        >В залог принимаются: 1000
+                                        руб./пенсионное удостоверение/военный
+                                        билет/водительские права</small
+                                    >
+                                </td>
+                                <td>500&nbsp;руб.</td>
+                                <td>500&nbsp;руб.</td>
+                            </tr>
+                            <tr>
+                                <td>Заточка коньков</td>
+                                <td>500&nbsp;руб.</td>
+                                <td>500&nbsp;руб.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Аренда помощника фигуриста<small>
+                                        30 мин
+                                    </small>
+                                </td>
+                                <td>100&nbsp;руб.</td>
+                                <td>100&nbsp;руб.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p class="price-warning">
+                        Все билеты продаются на 1 час катания!
+                    </p>
+
+                    <p class="price-warning">
+                        <b>Акция!</b> Получите помощника-пингвина бесплатно.
+                        <a
+                            class="price-warning-link"
+                            href="https://yandex.ru/maps/org/katok/16018677480/reviews/?display-text=%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%20%D0%B3%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B5&ll=30.331215%2C59.871605&mode=search&sctx=ZAAAAAgBEAAaKAoSCXe7XpoiWD5AEf2fw3x5701AEhIJGsIxy54Eyj8RJPJdSl0yrj8iBgABAgMEBSgKOABAAkgBagJydZ0BzczMPaABAKgBAL0B9FIvXsIBBei9ptY7ggIn0LrQsNGC0L7QuiDQsiDQs9Cw0LPQsNGA0LjQvSDQv9Cw0YDQutC1igIAkgIFMTA3ODOaAgxkZXNrdG9wLW1hcHM%3D&sll=30.331215%2C59.871605&source=serp_navig&sspn=0.203266%2C0.058977&tab=reviews&text=%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%20%D0%B3%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B5&z=13.81"
+                        >
+                            Напишите отзыв</a
+                        >
+                        и покажите его оператору по выдаче коньков.
+                    </p>
+                </section>
+                <section class="gallery" id="photo">
+                    <div class="gallery__blockk">
+                        <h2 class="section-title">Фото</h2>
                     </div>
-                </div>
-            </section>
-            <section class="price" id="price">
-                <div class="price__block">
-                    <h2 class="section-title">Стоимость</h2>
-                </div>
-                <table class="price__block-table">
-                    <thead class="price__block-table-thead">
-                        <tr>
-                            <th>Услуги</th>
-                            <th>Будние</th>
-                            <th>Выходные</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Взрослый билет</td>
-                            <td>500&nbsp;руб.</td>
-                            <td>500&nbsp;руб.</td>
-                        </tr>
-                        <tr>
-                            <td> Детский билет<small>До 18 лет при наличии подтверждающих документов</small>
-                            </td>
-                            <td>450&nbsp;руб.</td>
-                            <td>450&nbsp;руб.</td>
-                        </tr>
-                        <tr>
-                            <td> Льготный билет<small>Студенты, пенсионеры, льготники при наличии подтверждающих документов</small>
-                            </td>
-                            <td>450&nbsp;руб.</td>
-                            <td>450&nbsp;руб.</td>
-                        </tr>
-                        <tr>
-                            <td> Прокат коньков<small>В залог принимаются: 1000 руб./пенсионное удостоверение/военный билет/водительские права</small>
-                            </td>
-                            <td>500&nbsp;руб.</td>
-                            <td>500&nbsp;руб.</td>
-                        </tr>
-                        <tr>
-                            <td>Заточка коньков</td>
-                            <td>500&nbsp;руб.</td>
-                            <td>500&nbsp;руб.</td>
-                        </tr>
-                        <tr>
-                            <td> Аренда помощника фигуриста<small> 30 мин </small>
-                            </td>
-                            <td>100&nbsp;руб.</td>
-                            <td>100&nbsp;руб.</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="price-warning"> Все билеты продаются на 1 час катания! </p>
-                <p class="price-warning">
-                    <b>Акция!</b> Получите помощника-пингвина бесплатно. <a class="price-warning-link" href="https://yandex.ru/maps/org/katok/16018677480/reviews/?display-text=%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%20%D0%B3%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B5&ll=30.331215%2C59.871605&mode=search&sctx=ZAAAAAgBEAAaKAoSCXe7XpoiWD5AEf2fw3x5701AEhIJGsIxy54Eyj8RJPJdSl0yrj8iBgABAgMEBSgKOABAAkgBagJydZ0BzczMPaABAKgBAL0B9FIvXsIBBei9ptY7ggIn0LrQsNGC0L7QuiDQsiDQs9Cw0LPQsNGA0LjQvSDQv9Cw0YDQutC1igIAkgIFMTA3ODOaAgxkZXNrdG9wLW1hcHM%3D&sll=30.331215%2C59.871605&source=serp_navig&sspn=0.203266%2C0.058977&tab=reviews&text=%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%20%D0%B2%20%D0%B3%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%20%D0%BF%D0%B0%D1%80%D0%BA%D0%B5&z=13.81"> Напишите отзыв</a> и покажите его оператору по выдаче коньков.
-                </p>
-            </section>
-            <section class="gallery" id="photo">
-                <div class="gallery__blockk">
-                    <h2 class="section-title">Фото</h2>
-                </div>
-                <div style="
+
+                    <div
+                        style="
                             --swiper-navigation-color: #fff;
                             --swiper-pagination-color: #fff;
-                        " class="swiper swiper--main" id="swiper-main">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <picture>
-                                <source type="image/avif" media="(max-width: 480px)" srcset="./assets/gallery_1/440.avif 1x, ./assets/gallery_1/660.avif 1.5x, ./assets/gallery_1/880.avif 2x, ./assets/gallery_1/1320.avif 3x" />
-                                <source type="image/webp" media="(max-width: 480px)" srcset="./assets/gallery_1/440.webp 1x, ./assets/gallery_1/660.webp 1.5x, ./assets/gallery_1/880.webp 2x, ./assets/gallery_1/1320.webp 3x" />
-                                <source media="(max-width: 480px)" srcset="./assets/gallery_1/440.jpeg 1x, ./assets/gallery_1/660.jpeg 1.5x, ./assets/gallery_1/880.jpeg 2x, ./assets/gallery_1/1320.jpeg 3x" />
-                                <source type="image/avif" media="(max-width: 768px)" srcset="./assets/gallery_1/728.avif 1x, ./assets/gallery_1/1092.avif 1.5x, ./assets/gallery_1/1456.avif 2x, ./assets/gallery_1/2184.avif 3x" />
-                                <source type="image/webp" media="(max-width: 768px)" srcset="./assets/gallery_1/728.webp 1x, ./assets/gallery_1/1092.webp 1.5x, ./assets/gallery_1/1456.webp 2x, ./assets/gallery_1/2184.webp 3x" />
-                                <source media="(max-width: 768px)" srcset="./assets/gallery_1/728.jpeg 1x, ./assets/gallery_1/1092.jpeg 1.5x, ./assets/gallery_1/1456.jpeg 2x, ./assets/gallery_1/2184.jpeg 3x" />
-                                <source type="image/avif" srcset="./assets/gallery_1/1160.avif 1x, ./assets/gallery_1/1740.avif 1.5x, ./assets/gallery_1/2320.avif 2x, ./assets/gallery_1/3480.avif 3x" />
-                                <source type="image/webp" srcset="./assets/gallery_1/1160.webp 1x, ./assets/gallery_1/1740.webp 1.5x, ./assets/gallery_1/2320.webp 2x, ./assets/gallery_1/3480.webp 3x" />
-                                <img src="./assets/gallery_1/1160.jpeg" srcset="./assets/gallery_1/1160.jpeg 1x, ./assets/gallery_1/1740.jpeg 1.5x, ./assets/gallery_1/2320.jpeg 2x, ./assets/gallery_1/3480.jpeg 3x" loading="lazy" decoding="async" alt="Коньки" />
-                            </picture>
+                        "
+                        class="swiper swiper--main"
+                        id="swiper-main"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source type="image/avif" media="(max-width: 480px)" srcset="./assets/gallery_1/440.avif 1x, ./assets/gallery_1/660.avif 1.5x, ./assets/gallery_1/880.avif 2x, ./assets/gallery_1/1320.avif 3x" />
+                                    <source type="image/webp" media="(max-width: 480px)" srcset="./assets/gallery_1/440.webp 1x, ./assets/gallery_1/660.webp 1.5x, ./assets/gallery_1/880.webp 2x, ./assets/gallery_1/1320.webp 3x" />
+                                    <source media="(max-width: 480px)" srcset="./assets/gallery_1/440.jpeg 1x, ./assets/gallery_1/660.jpeg 1.5x, ./assets/gallery_1/880.jpeg 2x, ./assets/gallery_1/1320.jpeg 3x" />
+                                    <source type="image/avif" media="(max-width: 768px)" srcset="./assets/gallery_1/728.avif 1x, ./assets/gallery_1/1092.avif 1.5x, ./assets/gallery_1/1456.avif 2x, ./assets/gallery_1/2184.avif 3x" />
+                                    <source type="image/webp" media="(max-width: 768px)" srcset="./assets/gallery_1/728.webp 1x, ./assets/gallery_1/1092.webp 1.5x, ./assets/gallery_1/1456.webp 2x, ./assets/gallery_1/2184.webp 3x" />
+                                    <source media="(max-width: 768px)" srcset="./assets/gallery_1/728.jpeg 1x, ./assets/gallery_1/1092.jpeg 1.5x, ./assets/gallery_1/1456.jpeg 2x, ./assets/gallery_1/2184.jpeg 3x" />
+                                    <source type="image/avif" srcset="./assets/gallery_1/1160.avif 1x, ./assets/gallery_1/1740.avif 1.5x, ./assets/gallery_1/2320.avif 2x, ./assets/gallery_1/3480.avif 3x" />
+                                    <source type="image/webp" srcset="./assets/gallery_1/1160.webp 1x, ./assets/gallery_1/1740.webp 1.5x, ./assets/gallery_1/2320.webp 2x, ./assets/gallery_1/3480.webp 3x" />
+                                    <img src="./assets/gallery_1/1160.jpeg" srcset="./assets/gallery_1/1160.jpeg 1x, ./assets/gallery_1/1740.jpeg 1.5x, ./assets/gallery_1/2320.jpeg 2x, ./assets/gallery_1/3480.jpeg 3x" loading="lazy" decoding="async" alt="Коньки" />
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_10.jpg" />
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_2.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_3.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_4.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_5.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_6.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_7.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_8.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_9.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_10.jpg" />
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div
+                        thumbsSlider=""
+                        class="swiper swiper--thumbs"
+                        id="swiper-thumbs"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source type="image/avif" media="(max-width: 480px)" srcset="./assets/gallery_1/140.avif 1x, ./assets/gallery_1/210.avif 1.5x, ./assets/gallery_1/280.avif 2x, ./assets/gallery_1/420.avif 3x" />
+                                    <source type="image/webp" media="(max-width: 480px)" srcset="./assets/gallery_1/140.webp 1x, ./assets/gallery_1/210.webp 1.5x, ./assets/gallery_1/280.webp 2x, ./assets/gallery_1/420.webp 3x" />
+                                    <source media="(max-width: 480px)" srcset="./assets/gallery_1/140.jpeg 1x, ./assets/gallery_1/210.jpeg 1.5x, ./assets/gallery_1/280.jpeg 2x, ./assets/gallery_1/420.jpeg 3x" />
+                                    <source type="image/avif" media="(max-width: 768px)" srcset="./assets/gallery_1/175.avif 1x, ./assets/gallery_1/263.avif 1.5x, ./assets/gallery_1/350.avif 2x, ./assets/gallery_1/525.avif 3x" />
+                                    <source type="image/webp" media="(max-width: 768px)" srcset="./assets/gallery_1/175.webp 1x, ./assets/gallery_1/263.webp 1.5x, ./assets/gallery_1/350.webp 2x, ./assets/gallery_1/525.webp 3x" />
+                                    <source media="(max-width: 768px)" srcset="./assets/gallery_1/175.jpeg 1x, ./assets/gallery_1/263.jpeg 1.5x, ./assets/gallery_1/350.jpeg 2x, ./assets/gallery_1/525.jpeg 3x" />
+                                    <source type="image/avif" srcset="./assets/gallery_1/224.avif 1x, ./assets/gallery_1/336.avif 1.5x, ./assets/gallery_1/448.avif 2x, ./assets/gallery_1/672.avif 3x" />
+                                    <source type="image/webp" srcset="./assets/gallery_1/224.webp 1x, ./assets/gallery_1/336.webp 1.5x, ./assets/gallery_1/448.webp 2x, ./assets/gallery_1/672.webp 3x" />
+                                    <img src="./assets/gallery_1/224.jpeg" srcset="./assets/gallery_1/224.jpeg 1x, ./assets/gallery_1/336.jpeg 1.5x, ./assets/gallery_1/448.jpeg 2x, ./assets/gallery_1/672.jpeg 3x" loading="lazy" decoding="async" alt="Коньки" />
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/gallery_10.jpg" />
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-                <div thumbsSlider="" class="swiper swiper--thumbs" id="swiper-thumbs">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <picture>
-                                <source type="image/avif" media="(max-width: 480px)" srcset="./assets/gallery_1/140.avif 1x, ./assets/gallery_1/210.avif 1.5x, ./assets/gallery_1/280.avif 2x, ./assets/gallery_1/420.avif 3x" />
-                                <source type="image/webp" media="(max-width: 480px)" srcset="./assets/gallery_1/140.webp 1x, ./assets/gallery_1/210.webp 1.5x, ./assets/gallery_1/280.webp 2x, ./assets/gallery_1/420.webp 3x" />
-                                <source media="(max-width: 480px)" srcset="./assets/gallery_1/140.jpeg 1x, ./assets/gallery_1/210.jpeg 1.5x, ./assets/gallery_1/280.jpeg 2x, ./assets/gallery_1/420.jpeg 3x" />
-                                <source type="image/avif" media="(max-width: 768px)" srcset="./assets/gallery_1/175.avif 1x, ./assets/gallery_1/263.avif 1.5x, ./assets/gallery_1/350.avif 2x, ./assets/gallery_1/525.avif 3x" />
-                                <source type="image/webp" media="(max-width: 768px)" srcset="./assets/gallery_1/175.webp 1x, ./assets/gallery_1/263.webp 1.5x, ./assets/gallery_1/350.webp 2x, ./assets/gallery_1/525.webp 3x" />
-                                <source media="(max-width: 768px)" srcset="./assets/gallery_1/175.jpeg 1x, ./assets/gallery_1/263.jpeg 1.5x, ./assets/gallery_1/350.jpeg 2x, ./assets/gallery_1/525.jpeg 3x" />
-                                <source type="image/avif" srcset="./assets/gallery_1/224.avif 1x, ./assets/gallery_1/336.avif 1.5x, ./assets/gallery_1/448.avif 2x, ./assets/gallery_1/672.avif 3x" />
-                                <source type="image/webp" srcset="./assets/gallery_1/224.webp 1x, ./assets/gallery_1/336.webp 1.5x, ./assets/gallery_1/448.webp 2x, ./assets/gallery_1/672.webp 3x" />
-                                <img src="./assets/gallery_1/224.jpeg" srcset="./assets/gallery_1/224.jpeg 1x, ./assets/gallery_1/336.jpeg 1.5x, ./assets/gallery_1/448.jpeg 2x, ./assets/gallery_1/672.jpeg 3x" loading="lazy" decoding="async" alt="Коньки" />
-                            </picture>
+                </section>
+                <section class="map" id="map">
+                    <div class="map__block">
+                        <h2 class="section-title">Как нас найти</h2>
+                    </div>
+                    <p class="map__block-description">
+                        Каток находится в Гагарин-парке по адресу: Кузнецовская
+                        д. 25Б
+                    </p>
+                    <p class="map__block-description">
+                        <a href="tel:+79211865236" class="price-warning-link"
+                            >+7 (921) 186-52-36</a
+                        >
+                    </p>
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=16018677480"
+                        title="Как нас найти"
+                        class="map__block-map"
+                    ></iframe>
+                </section>
+                <section class="faq" id="question">
+                    <div class="faq__block">
+                        <h2 class="section-title">Вопросы</h2>
+                    </div>
+                    <div class="faq__block-questions">
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    До какого возраста дети?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                До 18 лет при предъявлении документов
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_2.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Какое расписание у катка?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                Будни 12:00-21:00, выходные 11:00-22:00. Заливка
+                                катка производится по необходимости, путем
+                                закрытия одной из его частей.
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_3.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Где оставить вещи?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                У нас есть раздевалка с гардеробом. Обувь
+                                обязательно нужно сдать в пакетах. Пакет можно
+                                как и взять с собой, так и купить за 10 руб. у
+                                нас.
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_4.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Если мой ребенок неуверенно стоит на
+                                    коньках?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                Для детей можно взять помощников в аренду за 200
+                                руб. за 30 мин. Так же на катке сейчас проходит
+                                акция, где можно получить помощника по катанию.
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_5.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Какой у вас лед?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                У нас естественный лед. Для хорошего скольжения
+                                - лучше всего приходить кататься в минусовую
+                                температуру.
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_6.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Есть ли залог?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                Да, 1000 руб./пенсионное удостоверение/военный
+                                билет/водительские права
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_7.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Где можно перекусить?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                У нас есть палатки с едой и вкусное кафе рядом.
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_8.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Где найти уборную комнату?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                В парке есть платный туалет по 60 руб. с
+                                человека
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_9.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./assets/gallery_10.jpg" />
+                        <div class="faq__block-question">
+                            <div class="faq__block-question-header">
+                                <h3 class="faq__block-question-header-text">
+                                    Какой минимальный и максимальный размер
+                                    коньков?
+                                </h3>
+                                <img src="./assets/plus.png" alt="Плюс" />
+                            </div>
+                            <div class="faq__block-answer">
+                                У нас есть хоккейные и фигурные коньки.
+                                Минимальный 26 размер, максимальный 47 хоккейные
+                                и 42 фигурные.
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="map" id="map">
-                <div class="map__block">
-                    <h2 class="section-title">Как нас найти</h2>
-                </div>
-                <p class="map__block-description"> Каток находится в Гагарин-парке по адресу: Кузнецовская д. 25Б </p>
-                <p class="map__block-description"> Тел.: +7 (921) 186-52-36 </p>
-                <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=16018677480" title="Как нас найти" class="map__block-map"></iframe>
-            </section>
-            <section class="faq" id="question">
-                <div class="faq__block">
-                    <h2 class="section-title">Вопросы</h2>
-                </div>
-                <div class="faq__block-questions">
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> До какого возраста дети? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> До 18 лет при предъявлении документов </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Какое расписание у катка? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> Будни 12:00-21:00, выходные 11:00-22:00. Заливка катка производится по необходимости, путем закрытия одной из его частей. </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Где оставить вещи? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> У нас есть раздевалка с гардеробом. Обувь обязательно нужно сдать в пакетах. Пакет можно как и взять с собой, так и купить за 10 руб. у нас. </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Если мой ребенок неуверенно стоит на коньках? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> Для детей можно взять помощников в аренду за 200 руб. за 30 мин. Так же на катке сейчас проходит акция, где можно получить помощника по катанию. </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Какой у вас лед? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> У нас естественный лед. Для хорошего скольжения - лучше всего приходить кататься в минусовую температуру. </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Есть ли залог? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> Да, 1000 руб./пенсионное удостоверение/военный билет/водительские права </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Где можно перекусить? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> У нас есть палатки с едой и вкусное кафе рядом. </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Где найти уборную комнату? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> В парке есть платный туалет по 60 руб. с человека </div>
-                    </div>
-                    <div class="faq__block-question">
-                        <div class="faq__block-question-header">
-                            <h3 class="faq__block-question-header-text"> Какой минимальный и максимальный размер коньков? </h3>
-                            <img src="./assets/plus.png" alt="Плюс" />
-                        </div>
-                        <div class="faq__block-answer"> У нас есть хоккейные и фигурные коньки. Минимальный 26 размер, максимальный 47 хоккейные и 42 фигурные. </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="footer__container">
+                </section>
+            </div>
+        </main>
+        <footer>
             <div class="footer__container">
-                <div class="footer__block">
-                    <p class="footer__block-copyright"> © Каток в Гагарин-парке, 2024 г. </p>
-                    <p class="footer__block-dev"></p>
+                <div class="footer__container">
+                    <div class="footer__block">
+                        <p class="footer__block-copyright">
+                            © Каток в Гагарин-парке, 2024 г.
+                        </p>
+                        <p class="footer__block-dev"></p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <div class="modal" data-modal="1">
-        <div class="modal-wrap">
-            <div class="js-modal-close">
-                <svg class="modal__cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-                </svg>
-            </div>
-            <div class="modal__text-wrap">
-                <p class="modal__title"> <strong>Каток временно закрыт</strong></p>
-                <p> Уважаемые гости!
-                <p>Каток временно закрыт из-за тёплой погоды.</p>
-                <p> Пожалуйста, спланируйте своё следующее катание с учётом погодных условий.</p>
-                <p> Следите за обновлениями на нашем сайте.</p>
-                <p> Мы будем рады видеть вас на катке, как только погодные условия позволят возобновить работу.</p>
-            </div>
-            <img class="modal-img" src="./assets/ice-close.jpg" alt="Каток закрыт по техническим причинам" width="400" />
-        </div>
-    </div>
-    <div class="overlay" id="overlay-modal"></div>
-</body>
+        </footer>
 
+        <div class="modal" data-modal="1">
+            <div class="modal-wrap">
+                <div class="js-modal-close">
+                    <svg
+                        class="modal__cross"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+                        />
+                    </svg>
+                </div>
+                <div class="modal__text-wrap">
+                    <p class="modal__title">
+                         <strong>Ждем вас в следующем сезоне!</strong>
+                    </p>
+                    <p>Дорогие друзья!</p>
+
+                    <p class="modal_text-align">
+                        Спасибо, что провели эту зиму вместе с нами на нашем
+                        катке. К&nbsp;сожалению, сезон катания подошел к концу, и мы
+                        вынуждены временно закрыть каток до наступления
+                       следующей зимы.</p>
+                    <p class="modal_text-align"> Следите за нашими обновлениями на сайте — мы сообщим, как только
+                        лед снова будет готов принять вас! 
+                        
+                    </p>
+                    <p class="modal_text-align"> А пока желаем вам
+                        солнечной весны, яркого лета и незабываемых осенних
+                        дней! ❤️ </p>
+                    <p class="modal_text-align"> Хотите радостно провести время? Посетите наши
+                        <b>аттракционы в&nbsp;Гагарин-парке!</b></p>
+                </div>
+                <img
+                    class="modal-img"
+                    src="./assets/ice-close.jpg"
+                    alt="Каток закрыт по техническим причинам"
+                    width="400"
+                />
+            </div>
+        </div>
+        <div class="overlay" id="overlay-modal"></div>
+    </body>
 </html>

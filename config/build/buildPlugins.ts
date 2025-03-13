@@ -11,7 +11,7 @@ export function buildPlugins({paths, mode}: BuildOptions): Configuration['plugin
     const plugins: Configuration['plugins'] = [
         new HtmlWebpackPlugin({
             template: paths.html,
-            inject: 'body',
+            scriptLoading:"defer",
         }),
         new MiniCssExtractPlugin({ filename: 'style.[contenthash].css' }),
         new FaviconsWebpackPlugin({

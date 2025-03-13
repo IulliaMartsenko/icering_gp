@@ -63,6 +63,9 @@
   width: 250px;
 margin: auto;
 }
+.modal_text-align{
+  text-align: justify;
+}
 .modal-img{
   width: 50%;
 }
@@ -509,8 +512,15 @@ small {
 .faq__block-question {
   border-bottom: 1px solid black;
   margin: 10px 0;
+  
 }
 
+.faq__block-question:focus {
+  outline: none;
+}
+.faq__block-question--open:focus{
+  outline: none;
+}
 .faq__block-question-header {
   display: flex;
   justify-content: space-between;
