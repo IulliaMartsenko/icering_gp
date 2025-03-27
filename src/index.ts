@@ -49,7 +49,7 @@ new Swiper('#swiper-main', {
     loop: true,
     spaceBetween: 10,
     autoplay: {
-        delay: 5000,
+        delay: 10000,
     },
     navigation: {
         nextEl: '.swiper-button-next',
