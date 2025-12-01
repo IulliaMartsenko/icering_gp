@@ -93,16 +93,13 @@
 }*/
 
 body {
+  overflow-x: hidden;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
 }
 
 body.unscroll {
   overflow-y: hidden;
-}
-
-main {
-  overflow-x: hidden;
 }
 
 html {
